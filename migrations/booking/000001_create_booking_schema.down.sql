@@ -1,0 +1,4 @@
+REVOKE ALL PRIVILEGES ON ALL TABLES IN SCHEMA public FROM booking_app;
+DROP TABLE IF EXISTS processed_events;
+DROP TABLE IF EXISTS orders;
+DROP TYPE IF EXISTS order_status;
